@@ -1,9 +1,9 @@
-from enigma import enigma
+from enigma import Enigma
 
-eni = enigma()
+eni = Enigma()
 
 count = int(input("Please Enter count rotors: "))
 
-plugboard = {'a':'d','e':'y','آ':'s','r':'ب'}
+plugboard = {"a": "d", "e": "y", "آ": "s", "r": "ب"}
 
-eni.setup(count,plugboard)
+eni.setup(count, plugboard)
